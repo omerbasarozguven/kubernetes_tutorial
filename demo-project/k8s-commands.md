@@ -23,3 +23,7 @@
 ### give a URL to external service in minikube
 
     minikube service mongo-express-service
+
+
+minikube image pull mongo-express
+minikube image pull mongo
