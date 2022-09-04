@@ -1,5 +1,10 @@
+### minikube apply commands in order to pull required images
+    minikube image pull mongo
+    minikube image pull mongo-express
+
 ### kubectl apply commands in order
 
+    kubectl apply -f namespace-dev.yaml
     kubectl apply -f mongo-secret.yaml
     kubectl apply -f mongo.yaml
     kubectl apply -f mongo-configmap.yaml
@@ -23,7 +28,3 @@
 ### give a URL to external service in minikube
 
     minikube service mongo-express-service
-
-
-minikube image pull mongo-express
-minikube image pull mongo
